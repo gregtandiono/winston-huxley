@@ -4,7 +4,7 @@
 				var target = document.getElementById('target'),
 					typer = new Typer(target);
 
-				typer.write('Welcome to Winston Huxley. We create Rich Visual Experiences.');
+				typer.write('We create Rich Visual Experiences.');
 			})();
 
 $('.theContent').click(function(){
