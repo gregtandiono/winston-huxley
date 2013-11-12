@@ -158,14 +158,14 @@ header:hover {
 
 main.home {
 	background: url('../img/home-img.jpg') top center fixed;
-	height: 800px;
+	height: auto;
 }
 
 .welcome-note {
 	color: rgba(255,255,255,0.85);
 	font-size: 1.5em;
 	font-weight: 200;
-	padding-top: 275px;
+	padding-top: 300px;
 	/*width: auto;*/
 	line-height: 50px;
 }
@@ -223,7 +223,7 @@ a.action-btn:hover {
 footer {
 	border-top: 1px solid rgba(255,255,255,.3);
 	padding-top: 30px;
-	margin-top: 275px;
+	margin-top: 425px;
 	color: rgba(255,255,255,1);
 	font-weight: 400;
 }
