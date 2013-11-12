@@ -136,12 +136,13 @@ header:hover {
 	color: white;
 	font-size: 1.75em;
 	letter-spacing: 2px;
+	padding: 15px;
 	transition: all 0.2s ease-in-out;
 }
 
 .vex-content a:hover {
-	color: rgba(255,255,255,.75);
-	border-bottom: 1px solid rgba(255,255,255,.75);
+	color: black;
+	background: white;
 }
 
 .vex-close {
@@ -158,17 +159,21 @@ header:hover {
 */
 
 main.home {
-	background: url('../img/home-img.jpg') top center fixed;
-	height: auto;
+	background-image: url('../img/home-alt.jpg');
+	background-position: right center;
+	background-attachment: fixed;
+	background-color: #0d0d0b;
+	background-repeat: no-repeat;
+	height: 1000px;
 	z-index: 0;
 }
 
 .welcome-note {
-	color: rgba(255,255,255,0.85);
+	/*color: rgba(255,255,255,0.85);*/
+	color: #D4D4D4;
 	font-size: 1.5em;
 	font-weight: 200;
-	padding-top: 300px;
-	/*width: auto;*/
+	padding-top: 325px;
 	line-height: 50px;
 }
 
@@ -227,7 +232,7 @@ a.action-btn:hover {
 footer {
 	border-top: 1px solid rgba(255,255,255,.3);
 	padding-top: 30px;
-	margin-top: 425px;
+	margin-top: 300px;
 	color: rgba(255,255,255,1);
 	font-weight: 400;
 }

@@ -4,6 +4,33 @@
     "name": "Winston Huxley",
     "owner": "Gregory Tandiono | Winston Huxley",
     "description": "",
+    "nav": [
+            {
+              "name": "Home",
+              "description": "",
+              "url": "http://localhost:8080",
+            },
+            {
+              "name": "Work",
+              "description": "Winston Huxley's Portfolio",
+              "url": "/work",
+            },
+            {
+              "name": "Services",
+              "description": "Winston Huxley's Services",
+              "url": "/services/",
+            },
+            {
+              "name": "About",
+              "description": "About Winston Huxley",
+              "url": "/about/",
+            },
+            {
+              "name": "Contact",
+              "description": "Contact Winston Huxley",
+              "url": "/contact/",
+            }
+        ],
     "css": [
             {
               "url": "/css/app.css"
