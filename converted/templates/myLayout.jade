@@ -3,14 +3,15 @@ html.no-js(lang='en')
 	include partials/header
 	body
 		header
-			.brand.uk-float-left(data-uk-scrollspy='{cls:\'uk-animation-fade\'}')
-				img(src=locals.images[0].url)
-			.menu.uk-float-right(data-uk-scrollspy='{cls:\'uk-animation-fade\', delay: 300}')
-				a.theContent
-					| Menu 
-					img(src=locals.images[1].url)
+			.uk-container.uk-container-center
+				.brand.uk-float-left(data-uk-scrollspy='{cls:\'uk-animation-fade\'}')
+					img(src=locals.images[0].url)
+				.menu.uk-float-right(data-uk-scrollspy='{cls:\'uk-animation-fade\', delay: 300}')
+					a.theContent
+						| Menu 
+						img(src=locals.images[1].url)
 		main.home
-			.welcome-note.uk-container(data-uk-scrollspy='{cls:\'uk-animation-fade\'}')
+			.welcome-note.uk-container.uk-container-center(data-uk-scrollspy='{cls:\'uk-animation-fade\'}')
 				#target
 				.extra-pad
 				a.action-btn(href='')

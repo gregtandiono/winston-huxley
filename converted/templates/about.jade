@@ -1,0 +1,46 @@
+!!! 5
+html.no-js(lang='en')
+	include partials/header
+	body
+		header
+			.uk-container.uk-container-center
+				.brand.uk-float-left(data-uk-scrollspy='{cls:\'uk-animation-fade\'}')
+					img(src=locals.images[0].url)
+				.menu.uk-float-right(data-uk-scrollspy='{cls:\'uk-animation-fade\', delay: 300}')
+					a.theContent
+						| Menu 
+						img(src=locals.images[1].url)
+		main
+			.interior-header-about
+				.page-title.uk-container.uk-container-center
+					h2 We're creative.
+						br
+						| We're professionals.
+						br
+						| and we make cool stuff.
+			.interior-content
+				.uk-container.uk-container-center.uk-width-large-1-2
+					p Yes, we are a 
+						strong Creative Agency. 
+						| So, what makes us so special?
+						| There's probably about a dozen times a million agencies
+						| in the making or a bunch of freelancers starting a collective doing the exact same thing.
+						| The truth is there is no clever way of putting it:
+					p.uk-text-center 
+						i "We Create 
+							strong Rich 
+							| and 
+							strong Beautiful 
+							| Experiences"
+		footer.interior
+			.uk-container.uk-container-center.uk-text-center
+				p
+					| © Winston Huxley inc. All Rights Reserved.
+					br
+					| - Site Credits -
+					br
+					| From Vancouver with 
+					i.uk-icon-heart
+					br
+					| Stardate: -309219.1519533233
+		script(type='text/javascript', src=locals.js[5].url)

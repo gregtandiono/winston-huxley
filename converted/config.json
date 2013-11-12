@@ -8,27 +8,27 @@
             {
               "name": "Home",
               "description": "",
-              "url": "http://localhost:8080",
+              "url": "http://localhost:8080"
             },
             {
               "name": "Work",
               "description": "Winston Huxley's Portfolio",
-              "url": "/work",
+              "url": "/work/"
             },
             {
               "name": "Services",
               "description": "Winston Huxley's Services",
-              "url": "/services/",
+              "url": "/services/"
             },
             {
               "name": "About",
               "description": "About Winston Huxley",
-              "url": "/about/",
+              "url": "/about/"
             },
             {
               "name": "Contact",
               "description": "Contact Winston Huxley",
-              "url": "/contact/",
+              "url": "/contact/"
             }
         ],
     "css": [
@@ -57,6 +57,9 @@
             },
             {
               "url": "/js/app.js"
+            },
+            {
+              "url": "/js/vexApp.js"
             }
         ],
     "images": [
