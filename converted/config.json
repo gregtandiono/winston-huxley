@@ -1,9 +1,45 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "name": "Winston Huxley",
+    "owner": "Gregory Tandiono | Winston Huxley",
+    "description": "",
+    "css": [
+            {
+              "url": "/css/app.css"
+            },
+            {
+              "url": "/css/uikit.min.css"
+            },
+            {
+              "url": "/css/vex.css"
+            }
+        ],
+    "js": [
+            {
+              "url": "/js/jquery.js"
+            },
+            {
+              "url": "/js/uikit.min.js"
+            },
+            {
+              "url": "/js/vex.combined.min.js"
+            },
+            {
+              "url": "/js/Typer.js"
+            },
+            {
+              "url": "/js/app.js"
+            }
+        ],
+    "images": [
+            {
+              "url": "/img/winston-logo.svg"
+            },
+            {
+              "url": "/img/nav.png"
+            }
+        ]
   },
   "plugins": [
     "./plugins/paginator.coffee"

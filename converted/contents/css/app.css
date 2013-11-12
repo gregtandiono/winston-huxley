@@ -1,0 +1,254 @@
+/*WINSTON HUXLEY'S CSS COMPONENTS*/
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/proximanova-bold-webfont.eot');
+    src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-bold-webfont.svg#ProximaNovaBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/proximanova-semibold-webfont.eot');
+    src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-semibold-webfont.svg#ProximaNovaSemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/proximanova-light-webfont.eot');
+    src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-light-webfont.woff') format('woff'),
+         url('../fonts/proximanova-light-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-light-webfont.svg#ProximaNovaLtRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-regular-webfont.svg#ProximaNovaRgRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* GLOBAL STYLES
+=============================================
+*/
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: "ProximaNova", arial, helvetica, sans-serif;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+img.centered {
+	margin: 0px auto;
+}
+
+/* HEADER STYLES
+=============================================
+*/
+
+/* Header + Menu */
+
+header {
+	width: 100%;
+	height: 35px;
+	padding: 15px;
+	z-index: 10;
+	position: fixed;
+	background: none;
+	-webkit-transition: background .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out;
+	transition: background .2s ease-in-out;;
+}
+
+header:hover {
+	background: rgba(0,0,0,.35);
+}
+
+.brand {
+	margin-left: 20px;
+}
+
+.menu {
+	margin-top: 5px
+}
+
+.menu a {
+	color: white;
+	text-transform: uppercase;
+	font-size: .9em;
+	letter-spacing: 2.5px;
+	margin-right: 40px;
+	padding-top: 10px;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+/* Navigation + Vex Overrides */
+
+.vex-content {
+	height: 100%;
+	color: white;
+	text-align: center;
+	background: rgba(0,0,0,0.6);
+	padding-top:150px;
+	font-weight: 300
+}
+
+.vex-content h1 {
+	color: rgba(255,255,255,.8);
+	font-size: 18px;
+	letter-spacing: 2px
+
+}
+
+.vex-content a {
+	text-transform: uppercase;
+	color: white;
+	font-size: 1.75em;
+	letter-spacing: 2px;
+	transition: all 0.2s ease-in-out;
+}
+
+.vex-content a:hover {
+	color: rgba(255,255,255,.75);
+	border-bottom: 1px solid rgba(255,255,255,.75);
+}
+
+.vex-close {
+	cursor:pointer !important;
+	width: 20px;
+	margin: 0px auto;
+	color: #F72840;
+}
+
+
+
+/* HOME STYLES
+=============================================
+*/
+
+main.home {
+	background: url('../img/home-img.jpg') top center fixed;
+	height: auto;
+	z-index: 0;
+}
+
+.welcome-note {
+	color: rgba(255,255,255,0.85);
+	font-size: 1.5em;
+	font-weight: 200;
+	padding-top: 300px;
+	/*width: auto;*/
+	line-height: 50px;
+}
+
+a.action-btn {
+	border-radius: 5px;
+	padding: 15px 25px;
+	border: 1px solid white;
+	color: white;
+	text-align: center;
+	font-size: .9em;
+	margin: 100px auto 0px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 0.2s ease-in-out;
+}
+
+a.action-btn:hover {
+	background: white;
+	color: black;
+}
+
+.non-action-btn {
+	border-radius: 5px;
+	padding: 0px 12px;
+	border: 1px solid white;
+	color: black;
+	width: 100px;
+	margin: 30px;
+	background: white;
+	transition: all 0.2s ease-in-out;
+}
+
+.non-action-btn:hover {
+	background: none;
+	color: white;
+}
+
+.separator {
+	height: 1px;
+	background: white;
+	width:75px;
+	margin: 0px auto;
+}
+
+.extra-pad {
+	padding: 10px 0px;
+}
+
+
+
+
+/* FOOTER STYLES
+=============================================
+*/
+
+footer {
+	border-top: 1px solid rgba(255,255,255,.3);
+	padding-top: 30px;
+	margin-top: 425px;
+	color: rgba(255,255,255,1);
+	font-weight: 400;
+}
+
+footer i {
+	color: #F72840;
+}
+
+footer p,
+footer a {
+	font-size: .70em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+footer h3 {
+	font-size: .95em;
+	letter-spacing: 2px;
+}
+
+
+
+
+
